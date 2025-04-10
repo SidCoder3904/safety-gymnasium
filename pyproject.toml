@@ -27,11 +27,11 @@ classifiers = [
 dependencies = [
     "gymnasium == 0.28.1",
     "gymnasium-robotics == 1.2.2",
-    "pygame == 2.5.2",
+    "pygame == 2.1.0",
     "mujoco == 2.3.3",
-    "xmltodict >= 0.13.0",
-    "pyyaml >= 6.0",
-    "imageio >= 2.27.0",
+    "xmltodict == 0.13.0",
+    "pyyaml == 6.0",
+    "imageio == 2.27.0",
 ]
 dynamic = ["version"]
 
@@ -43,9 +43,9 @@ Documentation = "https://www.safety-gymnasium.com"
 
 [project.optional-dependencies]
 lint = [
-    "isort >= 5.11.0",
-    "black >= 23.1.0",
-    "pylint[spelling] >= 2.15.0",
+    "isort == 5.11.0",
+    "black == 23.1.0",
+    "pylint[spelling] == 2.15.0",
     "mypy >= 0.990",
     "flake8",
     "flake8-bugbear",
